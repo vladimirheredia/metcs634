@@ -1,0 +1,167 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-image: url("images/sidney.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+ /* Vertically center the text there */
+  background-color: #f5f5f5;
+  background: rgba(255, 255, 255, 0.40);
+  height: 120px;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+.bgnav{
+  /* background: #87088D; */
+}
+
+#navbarCollapse ul li{
+  color: rgb(52, 179, 115);
+  font-size: 20px;
+  padding: 0 20px;
+  line-height: 2.5;
+  border-bottom: 3px solid transparent;
+}
+
+#navbarCollapse ul li a{
+  color: #fff !important;
+}
+
+#navbarCollapse ul li:hover{
+  color: #fff !important;
+  border-bottom: 3px rgba(255, 255, 255, 0.795) solid;
+  background: rgba(255, 255, 255, .2);
+}
+
+#navbarCollapse .active{
+  color: #fff !important;
+  border-bottom: 3px rgba(255, 255, 255, 0.795) solid;
+  background: rgba(255, 255, 255, .2);
+}
+
+#navbarCollapse ul li a:hover{
+  color: #fff !important;
+  z-index: -1;
+}
+
+.navbar{
+  padding-top:0;
+  padding-bottom:0;
+  min-height:69px;
+  position: relative;
+  z-index: 2;
+}
+
+.navBackground{
+  width: 100%;
+  position: absolute;
+  top:0;
+  height: 69px;
+  z-index: 0;
+  background: #87088D;
+  opacity: .7;
+}
+
+.logo{
+  width: 200px;
+  margin-left: 40px;
+}
+
+.socialicons{
+  margin-top:45px;
+  margin-left:35px;
+  display:flex;
+}
+
+.socialicons #scicon:hover{
+  background: #87088D;
+  cursor: pointer;
+}
+
+.socialicons #scicon{
+  width: 50px;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.5);
+  align-content: center;
+  border-radius: 50%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25px;
+  color: #fff;
+}
+
+.privacy{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 217px);
+}
+
+.privacy span{
+  margin-left:30px;
+}
+
+.signup{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  float: right;
+  margin-top: -40px;
+  line-height: 2;
+  color:  #87088D;
+  margin-right: 40px;
+
+}
+
+#btnSign{
+  background: #87088D;
+  color:white;
+  padding: 7px;
+  margin-top: 8.1px;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+#txtSign{
+  width:250px;
+}
+
+#subscribe{
+  position: absolute;
+  margin-top: -30px;
+  color: white;
+  font-size: 12px;
+  margin-left: 25px;
+}
