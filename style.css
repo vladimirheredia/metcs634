@@ -15,21 +15,30 @@ body {
   position: absolute;
   bottom: 0;
   width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
  /* Vertically center the text there */
-  background-color: #f5f5f5;
   background: rgba(255, 255, 255, 0.40);
   height: 120px;
 }
+
+
+/**
+Media queries
+*/
+
 
 
 /* Custom page CSS
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
 
-body > .container {
-  padding: 60px 15px 0;
+.main-container {
+      /* padding: 10px 15px 0; */
+      margin-left: 55px !important;
+      width: 50%;
+      background: rgba(255, 255, 255, 0.8);
+      position: absolute;
+      bottom: 120px;
+      top: 69px;
 }
 
 .footer > .container {
@@ -37,12 +46,52 @@ body > .container {
   padding-left: 15px;
 }
 
-code {
-  font-size: 80%;
+
+
+@media (max-width: 764px ){
+  .main-container{
+    width: 100% !important;
+    margin:0px !important;
+  }
+
+  .socialicons #scicon{
+    width:30px !important;
+    height:30px !important;
+  }
+
+  .socialicons {
+    margin-top: 15px !important;
+    margin-left: 0px !important;
+  }
+
+  .signup {
+    float: left !important;
+    margin-top: 10px !important;
+    margin-left: 25px !important;
+  }
+  .socialicons #scicon img{
+    width:20px;
+  }
+
+  .privacy span {
+    margin-left: 25px !important;
+    font-size: 10px !important;
+  } 
+
+  .privacy{
+    left: 0 !important;
+  }
+
 }
 
-.bgnav{
-  /* background: #87088D; */
+@media (min-width: 765px) and (max-width:938px){
+  .main-container{
+    width: 90% !important;
+  }
+}
+
+code {
+  font-size: 80%;
 }
 
 #navbarCollapse ul li{
@@ -80,6 +129,8 @@ code {
   min-height:69px;
   position: relative;
   z-index: 2;
+  padding: 0;
+  background: rgba(134, 8, 141, 0.7);
 }
 
 .navBackground{
@@ -88,13 +139,17 @@ code {
   top:0;
   height: 69px;
   z-index: 0;
-  background: #87088D;
-  opacity: .7;
+  background: rgba(134, 8, 141, 0.7);
 }
 
 .logo{
   width: 200px;
   margin-left: 40px;
+  position: absolute;
+  z-index: 2;
+  top: 22px;
+  left: 15px;
+  cursor: pointer;
 }
 
 .socialicons{
@@ -165,3 +220,123 @@ code {
   font-size: 12px;
   margin-left: 25px;
 }
+
+.btnmenu{
+  margin-top: 15px;
+  margin-bottom: 14px;
+  margin-right:20px;
+}
+
+.store{
+    width: 100%;
+    background: #ffffff99;
+    height: 80px;
+}
+
+.headContent{
+  display: flex;
+  align-items: center;
+  color: #87088D;
+  margin: 0 auto;
+  width: 100px;
+  padding-top: 15px;;
+}
+
+#cart{
+  position: absolute;
+  right: 25px; 
+  margin-top:-40px;
+  color: #87088D;
+}
+
+#cart img{
+  width: 60px;
+  height: 60px;
+  margin-top: -20px;
+  color: white;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  height: 130px;
+  margin-top: 5px;
+  background: #00000021;
+  padding-left: 40px;
+}
+
+.shirt img{
+  width: 130px;
+  margin-right:50px;
+}
+
+.shirtHeader{
+  color: #87088D;
+  margin-right:30px;
+  margin-top:10px;
+  font-weight: bold;
+  width: 180px;
+}
+
+.headerContent{
+  display:flex;
+}
+
+.headerDropDown{
+  margin-top:10px;
+}
+
+.headerDropDown select{
+  width:260px;
+  color:#87088D;
+}
+
+.price{
+  position: absolute;
+  margin-top: 30px;
+  color: #800080b5;
+  font-weight: bold;
+  font-stretch: condensed;
+  font-family: auto;
+}
+
+.shirtDescription{
+  position: absolute;
+  margin-top: 50px;
+  font-size: 12px;
+  color: #800080b5;
+  width:460px;
+}
+
+.addTocart{
+  position: absolute;
+  margin-top: 90px;
+  background: #800080b5;
+  color: white;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 3px;
+  cursor:pointer;
+}
+
+.addTocart:hover{
+  background:#87088D;
+}
+
+.rows{
+  overflow-y: scroll;
+  overflow-x: hidden;
+  bottom: 1px;
+  top: 69px;
+  position: absolute;
+  width: 100%;
+}
+
+.badge{
+  margin-left: -42px;
+}
+

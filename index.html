@@ -1,97 +1,243 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Sidney Gish</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <title>Sidney Gish</title>
 
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="style.css" rel="stylesheet">
-  </head>
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
 
-  <body>
+  <!-- Custom styles for this template -->
+  <link href="style.css" rel="stylesheet">
+</head>
 
-    <header>
-      <!-- Fixed navbar -->
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bgnav">
-        <img class="logo" src="images\sidneygish_logo.png"\>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">ABOUT <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">MUSIC</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">TOUR DATES</a>
-            </li>
-             <li class="nav-item">
-              <a class="nav-link" href="#">STORE</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">CONTACTS</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <div class="navBackground">
+<body>
 
+  <header>
+    <!-- Fixed navbar -->
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bgnav">
+
+      <button class="navbar-toggler ml-auto btnmenu" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">MUSIC</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">TOUR DATES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link storeLink" href="#">STORE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACTS</a>
+          </li>
+        </ul>
       </div>
-    </header>
+    </nav>
+    <div class="navBackground">
 
-    <!-- Begin page content -->
-    <main role="main" class="container">
-      <!-- <h1 class="mt-5">Some content here....</h1> -->
-    </main>
+    </div>
+    <img class="logo" src="images\sidneygish_logo.png" \>
+  </header>
 
-    <footer class="footer">
-      
-        <div class="socialicons"> 
-            <div id="scicon">
-              <img id="fb" src="images/facebook-32.png"/>
-            </div>
-            <div id="scicon">
-              <img src="images/twitter-32.png"/>
-            </div>
-            <div id="scicon">
-              <img src="images/soundcloud-6-32.png"/>
-            </div>
-            <div id="scicon">
-              <img src="images/instagram-32.png"/>
-            </div>
-            <div id="scicon">
-              <img src="images/youtube-32.png"/>
-            </div>
+  <!-- Begin page content -->
+  <main role="main" class="main-container" style="visibility:hidden;">
+    <!--Store page information-->
+    <div class="store" style="visibility:hidden">
+      <div class="head">
+        <div class="headContent">
+          <h1>Store</h1>
         </div>
-
-        <div class="privacy">
-          <span>Privacy Policy</span>
-          <span>&copy; 2018 Sidney Gish</span>
-          <span> Design By Vladimir Heredia </span>
+        <div id="cart">
+          <img src="images/shopping-bag.png">
+          <span class="badge badge-light">0</span>
         </div>
-        <div class="signup">
-            <div id="subscribe">Subscribe to stay informed about our concerts, apparels and music. </div>
-            <label id="btnSign" for="Signup">Subscribe</label>
-            <input type="text" id="txtSign" placeholder=" Your email...">
-        </div>
-        
-    </footer>
+      </div>
+      <div class="rows">
+          <div class="row">
+              <div class="shirt">
+                <img src="images/SG-No-Dogs-Tee.png" />
+              </div>
+              <div class="shirtInfo">
+                <div class="headerContent">
+                  <div class="shirtHeader">
+                    <Span>No Dogs Allowed Tee</Span>
+                  </div>
+                  <div class="headerDropDown">
+                    <select>
+                      <option value="Small">Select size...</option>
+                      <option value="Small">$20 -- Small</option>
+                      <option value="Medium">$20 -- Medium</option>
+                      <option value="Large">$20 -- Large</option>
+                      <option value="XL">$20 -- XL</option>
+                      <option value="2XL">$20 -- 2XL</option>
+                    </select>
+                  </div>
+                  <br /><br />
+                  <div class="price">
+                    <span>$20.00</span>
+                  </div>
+                  <div class="shirtDescription">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                      industry's standard dummy text ever since the 1500s</p>
+                  </div>
+                  <span class="addTocart">ADD TO CART</span>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+                <div class="shirt">
+                    <img src="images/SG-Snail-Tee.png" />
+                  </div>
+                  <div class="shirtInfo">
+                    <div class="headerContent">
+                      <div class="shirtHeader">
+                        <Span>Snail Tee</Span>
+                      </div>
+                      <div class="headerDropDown">
+                        <select>
+                          <option value="Small">Select size...</option>
+                          <option value="Small">$20 -- Small</option>
+                          <option value="Medium">$20 -- Medium</option>
+                          <option value="Large">$20 -- Large</option>
+                          <option value="XL">$20 -- XL</option>
+                          <option value="2XL">$20 -- 2XL</option>
+                        </select>
+                      </div>
+                      <br /><br />
+                      <div class="price">
+                        <span>$20.00</span>
+                      </div>
+                      <div class="shirtDescription">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                          industry's standard dummy text ever since the 1500s</p>
+                      </div>
+                      <span class="addTocart">ADD TO CART</span>
+                    </div>
+                  </div>
+            </div>
+            <div class="row">
+                <div class="shirt">
+                    <img src="images/SG-Cat-Rabbit-Tee.png" />
+                  </div>
+                  <div class="shirtInfo">
+                    <div class="headerContent">
+                      <div class="shirtHeader">
+                        <Span>Rabit Tee</Span>
+                      </div>
+                      <div class="headerDropDown">
+                        <select>
+                          <option value="Small">Select size...</option>
+                          <option value="Small">$20 -- Small</option>
+                          <option value="Medium">$20 -- Medium</option>
+                          <option value="Large">$20 -- Large</option>
+                          <option value="XL">$20 -- XL</option>
+                          <option value="2XL">$20 -- 2XL</option>
+                        </select>
+                      </div>
+                      <br /><br />
+                      <div class="price">
+                        <span>$20.00</span>
+                      </div>
+                      <div class="shirtDescription">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                          industry's standard dummy text ever since the 1500s</p>
+                      </div>
+                      <span class="addTocart">ADD TO CART</span>
+                    </div>
+                  </div>
+            </div>
+      </div>
+    </div>
 
-    <!-- Bootstrap core JavaScript
+    <!--About page information-->
+  </main>
+
+  <footer class="footer">
+
+    <div class="socialicons">
+      <div id="scicon">
+        <img id="fb" src="images/facebook-32.png" />
+      </div>
+      <div id="scicon">
+        <img src="images/twitter-32.png" />
+      </div>
+      <div id="scicon">
+        <img src="images/soundcloud-6-32.png" />
+      </div>
+      <div id="scicon">
+        <img src="images/instagram-32.png" />
+      </div>
+      <div id="scicon">
+        <img src="images/youtube-32.png" />
+      </div>
+    </div>
+
+    <div class="privacy">
+      <span>Privacy Policy</span>
+      <span>&copy; 2018 Sidney Gish</span>
+      <span> Design By Vladimir Heredia </span>
+    </div>
+    <div class="signup">
+      <div id="subscribe">Subscribe to stay informed about our concerts, apparels and music. </div>
+      <label id="btnSign" for="Signup">Subscribe</label>
+      <input type="text" id="txtSign" placeholder=" Your email...">
+    </div>
+
+  </footer>
+
+  <!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script>
+    let count = 0;
+    //logo click event handler
+    $(".logo").click(function(){
+      //remove active nav link
+      $(".nav-item").removeClass("active");
+      $(".main-container").css("visibility", "hidden");
+      $(".store").css("visibility", "hidden");
+    });
+
+    //Store link nav action
+    $(".storeLink").click(function(e){
+        e.preventDefault();
+        //first remove the active class from all nav items
+        $(".nav-item").removeClass("active");
+        //set main container visible
+        $(".main-container").css("visibility", "visible");
+        //Set store visible
+        $(".store").css("visibility", "visible");
+        //Set the link active
+        $(this).parent().addClass("active")
+    });
+    
+    //add to cart click event handler
+    $(".addTocart").click(function(){
+        count++;
+        $("#cart span")[0].innerText = count;
+    });
+  </script>
+</body>
+
 </html>
