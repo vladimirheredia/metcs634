@@ -227,19 +227,24 @@ code {
   margin-right:20px;
 }
 
-.store{
+.store , .music, .contact{
     width: 100%;
     background: #ffffff99;
     height: 80px;
 }
 
+.music, .contact{
+  margin-top:-80px;
+}
+
+
 .headContent{
-  display: flex;
-  align-items: center;
+  text-align: center;
   color: #87088D;
-  margin: 0 auto;
-  width: 100px;
-  padding-top: 15px;;
+  padding-top: 15px;
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;  
 }
 
 #cart{
@@ -263,15 +268,40 @@ code {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
-  height: 130px;
-  margin-top: 5px;
+  height: 160px;
+  margin-top: 1px;
   background: #00000021;
   padding-left: 40px;
 }
 
+.row-disc{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    height: 160px;
+    background: #00000021;
+    padding-left: 40px;
+    padding-top: 5px;
+    margin-top: 1px;
+}
+
 .shirt img{
+    width: 130px;
+    margin-right: 10px;
+    border: 1px solid white;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.disc img{
   width: 130px;
-  margin-right:50px;
+  margin-right: 50px;
+  border: 1px solid white;
+  padding: 5px;
+  margin-top: 15px;
 }
 
 .shirtHeader{
@@ -279,7 +309,9 @@ code {
   margin-right:30px;
   margin-top:10px;
   font-weight: bold;
-  width: 180px;
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .headerContent{
@@ -287,7 +319,9 @@ code {
 }
 
 .headerDropDown{
-  margin-top:10px;
+  margin-top: 10px;
+  position: absolute;
+  margin-left: 170px;
 }
 
 .headerDropDown select{
@@ -314,7 +348,7 @@ code {
 
 .addTocart{
   position: absolute;
-  margin-top: 90px;
+  margin-top: 118px;
   background: #800080b5;
   color: white;
   padding: 5px 10px;
@@ -331,7 +365,7 @@ code {
   overflow-y: scroll;
   overflow-x: hidden;
   bottom: 1px;
-  top: 69px;
+  top: 79px;
   position: absolute;
   width: 100%;
 }
@@ -340,3 +374,35 @@ code {
   margin-left: -42px;
 }
 
+.btnplay{
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  content: "\25BA";
+  border: 1px solid rgb(94, 94, 94);
+  position: absolute;
+  margin-top: 86px;
+  color: white;
+  cursor: pointer;
+  text-align: center
+}
+
+.btnplay:before{
+  color: rgb(94, 94, 94);
+  content: "\25BA";
+  margin-left:3px;
+}
+
+.playprev{
+    margin-left: 34px;
+    position: absolute;
+    margin-top: 89px;
+    font-size: small;
+    color: #4c4c4c;
+    cursor: pointer;
+}
+
+.btn-success{
+  background-color:purple;
+  border-color: transparent;
+}
