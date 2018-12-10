@@ -1,413 +1,572 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>Sidney Gish</title>
+    <title>Sidney Gish</title>
 
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Amatic+SC" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Amatic+SC|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Amatic+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Amatic+SC|Roboto" rel="stylesheet">
 
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-    crossorigin="anonymous">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+          crossorigin="anonymous">
 
-  <!-- Custom styles for this template -->
-  <link href="style.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
 
-  <header>
-    <!-- Fixed navbar -->
+    <header>
+        <!-- Fixed navbar -->
 
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bgnav">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bgnav">
 
-      <button class="navbar-toggler ml-auto btnmenu" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">ABOUT</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link musicLink" href="#">MUSIC</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">TOUR DATES</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link storeLink" href="#">STORE</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link contactLink" href="#">CONTACTS</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <div class="navBackground">
+            <button class="navbar-toggler ml-auto btnmenu" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link aboutLink" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link musicLink" href="#">MUSIC</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link tourLink" href="#">TOUR DATES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link storeLink" href="#">STORE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link contactLink" href="#">CONTACTS</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="navBackground">
 
-    </div>
-    <img class="logo" src="images\sidneygish_logo.png" \>
-  </header>
-
-  <!-- Begin page content -->
-  <main role="main" class="main-container" style="visibility:hidden;">
-    <!--Store page information-->
-    <div class="store" style="visibility:hidden">
-      <div class="head">
-        <div class="headContent">
-          <h1>Store</h1>
         </div>
-        <div id="cart">
-          <img src="images/shopping-bag.png">
-          <span class="badge badge-light">0</span>
-        </div>
-      </div>
-      <div class="rows">
-          <div class="row">
-              <div class="shirt">
-                <img src="images/SG-No-Dogs-Tee.png" />
-              </div>
-              <div class="shirtInfo">
-                <div class="headerContent">
-                  <div class="shirtHeader">
-                    <Span>No Dogs Allowed Tee</Span>
-                  </div>
-                  <div class="headerDropDown">
-                    <select>
-                      <option value="Small">Select size...</option>
-                      <option value="Small">$20 -- Small</option>
-                      <option value="Medium">$20 -- Medium</option>
-                      <option value="Large">$20 -- Large</option>
-                      <option value="XL">$20 -- XL</option>
-                      <option value="2XL">$20 -- 2XL</option>
-                    </select>
-                  </div>
-                  <br /><br />
-                  <div class="price">
-                    <span>$20.00</span>
-                  </div>
-                  <div class="shirtDescription">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                      industry's standard dummy text ever since the 1500s</p>
-                  </div>
-                  <span class="addTocart">ADD TO CART</span>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-                <div class="shirt">
-                    <img src="images/SG-Snail-Tee.png" />
-                  </div>
-                  <div class="shirtInfo">
-                    <div class="headerContent">
-                      <div class="shirtHeader">
-                        <Span>Snail Tee</Span>
-                      </div>
-                      <div class="headerDropDown">
-                        <select>
-                          <option value="Small">Select size...</option>
-                          <option value="Small">$20 -- Small</option>
-                          <option value="Medium">$20 -- Medium</option>
-                          <option value="Large">$20 -- Large</option>
-                          <option value="XL">$20 -- XL</option>
-                          <option value="2XL">$20 -- 2XL</option>
-                        </select>
-                      </div>
-                      <br /><br />
-                      <div class="price">
-                        <span>$20.00</span>
-                      </div>
-                      <div class="shirtDescription">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                          industry's standard dummy text ever since the 1500s</p>
-                      </div>
-                      <span class="addTocart">ADD TO CART</span>
-                    </div>
-                  </div>
-            </div>
-            <div class="row">
-                <div class="shirt">
-                    <img src="images/SG-Cat-Rabbit-Tee.png" />
-                  </div>
-                  <div class="shirtInfo">
-                    <div class="headerContent">
-                      <div class="shirtHeader">
-                        <Span>Rabit Tee</Span>
-                      </div>
-                      <div class="headerDropDown">
-                        <select>
-                          <option value="Small">Select size...</option>
-                          <option value="Small">$20 -- Small</option>
-                          <option value="Medium">$20 -- Medium</option>
-                          <option value="Large">$20 -- Large</option>
-                          <option value="XL">$20 -- XL</option>
-                          <option value="2XL">$20 -- 2XL</option>
-                        </select>
-                      </div>
-                      <br /><br />
-                      <div class="price">
-                        <span>$20.00</span>
-                      </div>
-                      <div class="shirtDescription">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                          industry's standard dummy text ever since the 1500s</p>
-                      </div>
-                      <span class="addTocart">ADD TO CART</span>
-                    </div>
-                  </div>
-            </div>
-      </div>
-    </div>
-    <!-- Music page information-->
-    <div class="music" style="visibility:hidden">
-      <div class="head">
-        <div class="headContent">
-          <h1>Music Albums</h1>
-        </div>
-      </div>
-      <div class="rows">
-        <div class="row-disc">
-            <div class="disc">
-              <img src="images/no-dogs-allowed.jpeg" />
-            </div>
-            <div class="shirtInfo">
-              <div class="headerContent">
-                <div class="shirtHeader">
-                  <Span>NO DOGS ALLOWED</Span>
-                </div>
-                <br /><br />
-                
-                <div class="shirtDescription">
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s</p>
-                </div>
-                <span class="btnplay"></span>
-                <span class="playprev">Play Preview</span>
-                <span class="addTocart">ADD TO CART</span>
-              </div>
-            </div>
-          </div>
-          <div class="row-disc">
-              <div class="disc">
-                  <img src="images/ed-buys-houses.jpeg" />
-                </div>
-                <div class="shirtInfo">
-                  <div class="headerContent">
-                    <div class="shirtHeader">
-                      <Span>ED BUYS HOUSES</Span>
-                    </div>
-                    <br /><br />
-                  
-                    <div class="shirtDescription">
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the 1500s</p>
-                    </div>
-                    <span class="btnplay"></span>
-                    <span class="playprev">Play Preview</span>
-                    <span class="addTocart">ADD TO CART</span>
-                  </div>
-                </div>
-          </div>
-          <div class="row-disc">
-              <div class="disc">
-                  <img src="images/presumibly-dead.jpg" />
-                </div>
-                <div class="shirtInfo">
-                  <div class="headerContent">
-                    <div class="shirtHeader">
-                      <Span>PRESUMABLY DEAD ARM (617 SESSIONS) - SINGLE</Span>
-                    </div>
-                    <br /><br />
-                    
-                    <div class="shirtDescription">
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the 1500s</p>
-                    </div>
-                    <span class="btnplay"></span>
-                    <span class="playprev">Play Preview</span>
-                    <span class="addTocart">ADD TO CART</span>
-                  </div>
-                </div>
-          </div>
-    </div>
-    </div>
+        <img class="logo" src="images\sidneygish_logo.png" \>
+    </header>
 
-    <!--Contact page information-->
-    <div class="contact" style="visibility:hidden">
-      <div class="head">
-        <div class="headContent">
-          <h1>Contact Us</h1>
-        </div>
-      </div>
-      <div class="rows">
-        <div class="row-contact">
-            <div class="mapimg">
-              <div class="mapouter"><div class="gmap_canvas"><iframe width="1080" height="238" id="gmap_canvas" src="https://maps.google.com/maps?q=123%20centre%20st.%20jamaica%20plain%2C%20ma%2002130&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.crocothemes.net"></a></div><style>.mapouter{text-align:right;height:238px;width:1080px;}.gmap_canvas {overflow:hidden;background:none!important;height:238px;width:1080px;}</style></div>
+    <!-- Begin page content -->
+    <main role="main" class="main-container" style="visibility:hidden;">
+        <!--About page information-->
+        <div class="about" style="visibility:hidden">
+            <div class="head">
+                <div class="headContent">
+                    <h1>Biography</h1>
+                </div>
             </div>
-            <div class="contact-form">
-              <script src='https://www.google.com/recaptcha/api.js'></script>
+            <div class="bio">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.
+                </p>
+            </div>
+        </div>
+        <!--Tour dates page information-->
+        <div class="tour" style="visibility:hidden">
+            <div class="head">
+                <div class="headContent">
+                    <h1>Tour Dates</h1>
+                </div>
+            </div>
+            <div class="rows">
+                <div class="row-disc">
+                    <div class="tour-disc">
+                        <p class="square"><span>Dec 7</span></p>
+                    </div>
+                    <div class="">
+                        <div class="headerContent">
+                            <div class="shirtHeader">
+                                <Span>December Friday 7th</Span>
+                            </div>
+                            <br /><br />
 
-            <div class="row" style="height: 100% !important;padding-top: 20px;
+                            <div class="shirtDescription">
+                                <p>Rock for Tots 2018</p>
+                                <p>Lowell, MA, US</p>
+                            </div>
+                            <span class="addTocart">ADD TO CART</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-disc">
+                    <div class="tour-disc">
+                        <p class="square"><span>Dec 13</span></p>
+                    </div>
+                    <div class="">
+                        <div class="headerContent">
+                            <div class="shirtHeader">
+                                <Span>December Thursday 13th</Span>
+                            </div>
+                            <br /><br />
+
+                            <div class="shirtDescription">
+                                <p>Rock & Roll Hotel</p>
+                                <p>Washington, DC, US</p>
+                            </div>
+                            <span class="addTocart">ADD TO CART</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-disc">
+                    <div class="tour-disc">
+                        <p class="square"><span>Dec 14</span></p>
+                    </div>
+                    <div class="">
+                        <div class="headerContent">
+                            <div class="shirtHeader">
+                                <Span>December Friday 14th</Span>
+                            </div>
+                            <br /><br />
+
+                            <div class="shirtDescription">
+                                <p>The Foundry</p>
+                                <p>Philadelphia, PA, US</p>
+                            </div>
+                            <span class="addTocart">ADD TO CART</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Store page information-->
+        <div class="store" style="visibility:hidden">
+            <div class="head">
+                <div class="headContent">
+                    <h1>Store</h1>
+                </div>
+                <div id="cart">
+                    <img src="images/shopping-bag.png">
+                    <span class="badge badge-light">0</span>
+                </div>
+            </div>
+            <div class="rows">
+                <div class="row">
+                    <div class="shirt">
+                        <img src="images/SG-No-Dogs-Tee.png" />
+                    </div>
+                    <div class="shirtInfo">
+                        <div class="headerContent">
+                            <div class="shirtHeader">
+                                <Span>No Dogs Allowed Tee</Span>
+                            </div>
+                            <div class="headerDropDown">
+                                <select>
+                                    <option value="Small">Select size...</option>
+                                    <option value="Small">$20 -- Small</option>
+                                    <option value="Medium">$20 -- Medium</option>
+                                    <option value="Large">$20 -- Large</option>
+                                    <option value="XL">$20 -- XL</option>
+                                    <option value="2XL">$20 -- 2XL</option>
+                                </select>
+                            </div>
+                            <br /><br />
+                            <div class="price">
+                                <span>$20.00</span>
+                            </div>
+                            <div class="shirtDescription">
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                                    industry's standard dummy text ever since the 1500s
+                                </p>
+                            </div>
+                            <span class="addTocart">ADD TO CART</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="shirt">
+                        <img src="images/SG-Snail-Tee.png" />
+                    </div>
+                    <div class="shirtInfo">
+                        <div class="headerContent">
+                            <div class="shirtHeader">
+                                <Span>Snail Tee</Span>
+                            </div>
+                            <div class="headerDropDown">
+                                <select>
+                                    <option value="Small">Select size...</option>
+                                    <option value="Small">$20 -- Small</option>
+                                    <option value="Medium">$20 -- Medium</option>
+                                    <option value="Large">$20 -- Large</option>
+                                    <option value="XL">$20 -- XL</option>
+                                    <option value="2XL">$20 -- 2XL</option>
+                                </select>
+                            </div>
+                            <br /><br />
+                            <div class="price">
+                                <span>$20.00</span>
+                            </div>
+                            <div class="shirtDescription">
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                                    industry's standard dummy text ever since the 1500s
+                                </p>
+                            </div>
+                            <span class="addTocart">ADD TO CART</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="shirt">
+                        <img src="images/SG-Cat-Rabbit-Tee.png" />
+                    </div>
+                    <div class="shirtInfo">
+                        <div class="headerContent">
+                            <div class="shirtHeader">
+                                <Span>Rabit Tee</Span>
+                            </div>
+                            <div class="headerDropDown">
+                                <select>
+                                    <option value="Small">Select size...</option>
+                                    <option value="Small">$20 -- Small</option>
+                                    <option value="Medium">$20 -- Medium</option>
+                                    <option value="Large">$20 -- Large</option>
+                                    <option value="XL">$20 -- XL</option>
+                                    <option value="2XL">$20 -- 2XL</option>
+                                </select>
+                            </div>
+                            <br /><br />
+                            <div class="price">
+                                <span>$20.00</span>
+                            </div>
+                            <div class="shirtDescription">
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                                    industry's standard dummy text ever since the 1500s
+                                </p>
+                            </div>
+                            <span class="addTocart">ADD TO CART</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Music page information-->
+        <div class="music" style="visibility:hidden">
+            <div class="head">
+                <div class="headContent">
+                    <h1>Music Albums</h1>
+                </div>
+            </div>
+            <div class="rows">
+                <div class="row-disc">
+                    <div class="disc">
+                        <img src="images/no-dogs-allowed.jpeg" />
+                    </div>
+                    <div class="shirtInfo">
+                        <div class="headerContent">
+                            <div class="shirtHeader">
+                                <Span>NO DOGS ALLOWED</Span>
+                            </div>
+                            <br /><br />
+
+                            <div class="shirtDescription">
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                                    industry's standard dummy text ever since the 1500s
+                                </p>
+                            </div>
+                            <span class="btnplay"></span>
+                            <span class="playprev">Play Preview</span>
+                            <span class="addTocart">ADD TO CART</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-disc">
+                    <div class="disc">
+                        <img src="images/ed-buys-houses.jpeg" />
+                    </div>
+                    <div class="shirtInfo">
+                        <div class="headerContent">
+                            <div class="shirtHeader">
+                                <Span>ED BUYS HOUSES</Span>
+                            </div>
+                            <br /><br />
+
+                            <div class="shirtDescription">
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                                    industry's standard dummy text ever since the 1500s
+                                </p>
+                            </div>
+                            <span class="btnplay"></span>
+                            <span class="playprev">Play Preview</span>
+                            <span class="addTocart">ADD TO CART</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-disc">
+                    <div class="disc">
+                        <img src="images/presumibly-dead.jpg" />
+                    </div>
+                    <div class="shirtInfo">
+                        <div class="headerContent">
+                            <div class="shirtHeader">
+                                <Span>PRESUMABLY DEAD ARM (617 SESSIONS) - SINGLE</Span>
+                            </div>
+                            <br /><br />
+
+                            <div class="shirtDescription">
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                                    industry's standard dummy text ever since the 1500s
+                                </p>
+                            </div>
+                            <span class="btnplay"></span>
+                            <span class="playprev">Play Preview</span>
+                            <span class="addTocart">ADD TO CART</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Contact page information-->
+        <div class="contact" style="visibility:hidden">
+            <div class="head">
+                <div class="headContent">
+                    <h1>Contact Us</h1>
+                </div>
+            </div>
+            <div class="rows">
+                <div class="row-contact">
+                    <div class="mapimg">
+                        <div class="mapouter">
+                            <div class="gmap_canvas"><iframe width="1080" height="238" id="gmap_canvas" src="https://maps.google.com/maps?q=123%20centre%20st.%20jamaica%20plain%2C%20ma%2002130&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.crocothemes.net"></a></div>
+                            <style>
+                                .mapouter {
+                                    text-align: right;
+                                    height: 238px;
+                                    width: 1080px;
+                                }
+
+                                .gmap_canvas {
+                                    overflow: hidden;
+                                    background: none !important;
+                                    height: 238px;
+                                    width: 1080px;
+                                }
+                            </style>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <script src='https://www.google.com/recaptcha/api.js'></script>
+
+                        <div class="row" style="height: 100% !important;padding-top: 20px;
             padding-bottom: 20px; color: #87088d;">
-                <div class="col-md-6 col-md-offset-3">
-                    <form role="form" method="post" id="reused_form"   >
-                        <div class="form-group">
-                            <label for="name">
-                                Name:</label>
-                            <input type="text" class="form-control"
-                            id="name" name="name"  required maxlength="50">
+                            <div class="col-md-6 col-md-offset-3">
+                                <form role="form" method="post" id="reused_form">
+                                    <div class="form-group">
+                                        <label for="name">
+                                            Name:
+                                        </label>
+                                        <input type="text" class="form-control"
+                                               id="name" name="name" required maxlength="50">
 
-                        </div>
-                        <div class="form-group">
-                            <label for="email">
-                                Email:</label>
-                            <input type="email" class="form-control"
-                            id="email" name="email" required maxlength="50">
-                        </div>
-                        <div class="form-group">
-                            <label for="name">
-                                Message:</label>
-                            <textarea class="form-control" type="textarea" name="message"
-                            id="message" placeholder="Your Message Here"
-                            maxlength="6000" rows="3"></textarea>
-                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">
+                                            Email:
+                                        </label>
+                                        <input type="email" class="form-control"
+                                               id="email" name="email" required maxlength="50">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="name">
+                                            Message:
+                                        </label>
+                                        <textarea class="form-control" type="textarea" name="message"
+                                                  id="message" placeholder="Your Message Here"
+                                                  maxlength="6000" rows="3"></textarea>
+                                    </div>
 
-                        <button type="submit" class="btn btn-lg btn-success pull-right" id="btnContactUs">Post It! →</button>
+                                    <button type="submit" class="btn btn-lg btn-success pull-right" id="btnContactUs">Post It! →</button>
 
-                    </form>
-                    <div id="success_message" style="width:100%; height:100%; display:none; ">
-                        <h3>Sent your message successfully!</h3>
+                                </form>
+                                <div id="success_message" style="width:100%; height:100%; display:none; ">
+                                    <h3>Sent your message successfully!</h3>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-md-offset-3">
+                                Got a question ? Feedback? Awesome!
+                                <p>
+                                    Send your message in the form and we will get back to you as early as possible.
+                                </p>
+                                <p>
+                                    <span>Tel. 512.652.8945</span>
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-md-offset-3">
-                  Got a question ? Feedback? Awesome!
-                    <p>
-                        Send your message in the form and we will get back to you as early as possible.
-                    </p>
-                    <p>
-                      <span>Tel. 512.652.8945</span>
-                    </p>
-                </div>
-            </div>
             </div>
         </div>
-    </div>
-    </div>
-  </main>
+        <div id="cartDialog" title="Item Added" style="visibility:hidden">
+            <p>Item successfully added to cart.</p>
+        </div>
+    </main>
 
-  <footer class="footer">
+    <footer class="footer">
 
-    <div class="socialicons">
-      <div id="scicon">
-        <img id="fb" src="images/facebook-32.png" />
-      </div>
-      <div id="scicon">
-        <img src="images/twitter-32.png" />
-      </div>
-      <div id="scicon">
-        <img src="images/soundcloud-6-32.png" />
-      </div>
-      <div id="scicon">
-        <img src="images/instagram-32.png" />
-      </div>
-      <div id="scicon">
-        <img src="images/youtube-32.png" />
-      </div>
-    </div>
+        <div class="socialicons">
+            <div id="scicon">
+                <img id="fb" src="images/facebook-32.png" />
+            </div>
+            <div id="scicon">
+                <img src="images/twitter-32.png" />
+            </div>
+            <div id="scicon">
+                <img src="images/soundcloud-6-32.png" />
+            </div>
+            <div id="scicon">
+                <img src="images/instagram-32.png" />
+            </div>
+            <div id="scicon">
+                <img src="images/youtube-32.png" />
+            </div>
+        </div>
 
-    <div class="privacy">
-      <span>Privacy Policy</span>
-      <span>&copy; 2018 Sidney Gish</span>
-      <span> Design By Vladimir Heredia </span>
-    </div>
-    <div class="signup">
-      <div id="subscribe">Subscribe to stay informed about our concerts, apparels and music. </div>
-      <label id="btnSign" for="Signup">Subscribe</label>
-      <input type="text" id="txtSign" placeholder=" Your email...">
-    </div>
+        <div class="privacy">
+            <span>Privacy Policy</span>
+            <span>&copy; 2018 Sidney Gish</span>
+            <span> Design By Vladimir Heredia </span>
+        </div>
+        <div class="signup">
+            <div id="subscribe">Subscribe to stay informed about our concerts, apparels and music. </div>
+            <label id="btnSign" for="Signup">Subscribe</label>
+            <input type="text" id="txtSign" placeholder=" Your email...">
+        </div>
 
-  </footer>
+    </footer>
 
-  <!-- Bootstrap core JavaScript
-    ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
-  <script>
-    let count = 0;
-    //logo click event handler
-    $(".logo").click(function(){
-      //remove active nav link
-      $(".nav-item").removeClass("active");
-      $(".main-container").css("visibility", "hidden");
-      $(".store").css("visibility", "hidden");
-      $(".music").css("visibility", "hidden");
-      $(".contact").css("visibility", "hidden");
-    });
+    <!-- Bootstrap core JavaScript
+      ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+    <script>
+        let count = 0;
+        //logo click event handler
+        $(".logo").click(function () {
+            //remove active nav link
+            $(".nav-item").removeClass("active");
+            $(".main-container").css("visibility", "hidden");
+            $(".about").css("visibility", "hidden");
+            $(".store").css("visibility", "hidden");
+            $(".music").css("visibility", "hidden");
+            $(".tour").css("visibility", "hidden");
+            $(".contact").css("visibility", "hidden");
+        });
 
-    //Store link nav action
-    $(".storeLink").click(function(e){
-        e.preventDefault();
-        //first remove the active class from all nav items
-        $(".nav-item").removeClass("active");
-        //set main container visible
-        $(".main-container").css("visibility", "visible");
-        //Set store visible
-        $(".store").css("visibility", "visible");
-        //Set the link active
-        $(".music").css("visibility", "hidden");
-        $(".contact").css("visibility", "hidden");
-        $(this).parent().addClass("active")
-    });
+        //About link nav action
+        $(".aboutLink").click(function (e) {
+            e.preventDefault();
+            //first remove the active class from all nav items
+            $(".nav-item").removeClass("active");
+            //set main container visible
+            $(".main-container").css("visibility", "visible");
+            //Set tour visible
+            $(".about").css("visibility", "visible");
+            $(".tour").css("visibility", "hidden");
+            $(".music").css("visibility", "hidden");
+            $(".store").css("visibility", "hidden");
+            $(".contact").css("visibility", "hidden");
+            $(this).parent().addClass("active");
+        });
+        //Tour link nav action
+        $(".tourLink").click(function (e) {
+            e.preventDefault();
+            //first remove the active class from all nav items
+            $(".nav-item").removeClass("active");
+            //set main container visible
+            $(".main-container").css("visibility", "visible");
+            //Set tour visible
+            $(".tour").css("visibility", "visible");
+            $(".about").css("visibility", "hidden");
+            $(".music").css("visibility", "hidden");
+            $(".store").css("visibility", "hidden");
+            $(".contact").css("visibility", "hidden");
+            $(this).parent().addClass("active");
+        });
 
-    //music link nav action
-    $(".musicLink").click(function(e){
-      e.preventDefault();
-      //first remove the active class from all nav items
-      $(".nav-item").removeClass("active");
-        //set main container visible
-        $(".main-container").css("visibility", "visible");
-        //Set store visible
-        $(".music").css("visibility", "visible");
-        //Set the link active
-        $(".store").css("visibility", "hidden");
-        $(".contact").css("visibility", "hidden");
-        $(this).parent().addClass("active")
-    });
+        //Store link nav action
+        $(".storeLink").click(function (e) {
+            e.preventDefault();
+            //first remove the active class from all nav items
+            $(".nav-item").removeClass("active");
+            //set main container visible
+            $(".main-container").css("visibility", "visible");
+            //Set store visible
+            $(".store").css("visibility", "visible");
+            //Set the link active
+            $(".about").css("visibility", "hidden");
+            $(".music").css("visibility", "hidden");
+            $(".contact").css("visibility", "hidden");
+            $(".tour").css("visibility", "hidden");
+            $(this).parent().addClass("active")
+        });
 
-    //music link nav action
-    $(".contactLink").click(function(e){
-      e.preventDefault();
-      //first remove the active class from all nav items
-      $(".nav-item").removeClass("active");
-        //set main container visible
-        $(".main-container").css("visibility", "visible");
-        //Set store visible
-        $(".contact").css("visibility", "visible");
-        //Set the link active
-        $(".store").css("visibility", "hidden");
-        $(".music").css("visibility", "hidden");
-        $(this).parent().addClass("active")
-    });
-    
-    //add to cart click event handler
-    $(".addTocart").click(function(){
-        count++;
-        $("#cart span")[0].innerText = count;
-    });
-  </script>
+        //music link nav action
+        $(".musicLink").click(function (e) {
+            e.preventDefault();
+            //first remove the active class from all nav items
+            $(".nav-item").removeClass("active");
+            //set main container visible
+            $(".main-container").css("visibility", "visible");
+            //Set store visible
+            $(".music").css("visibility", "visible");
+            //Set the link active
+            $(".about").css("visibility", "hidden");
+            $(".store").css("visibility", "hidden");
+            $(".contact").css("visibility", "hidden");
+            $(".tour").css("visibility", "hidden");
+            $(this).parent().addClass("active")
+        });
+
+        //music link nav action
+        $(".contactLink").click(function (e) {
+            e.preventDefault();
+            //first remove the active class from all nav items
+            $(".nav-item").removeClass("active");
+            //set main container visible
+            $(".main-container").css("visibility", "visible");
+            //Set store visible
+            $(".contact").css("visibility", "visible");
+            //Set the link active
+            $(".about").css("visibility", "hidden");
+            $(".store").css("visibility", "hidden");
+            $(".music").css("visibility", "hidden");
+            $(".tour").css("visibility", "hidden");
+            $(this).parent().addClass("active")
+        });
+
+        //add to cart click event handler
+        $(".addTocart").click(function () {
+            count++;
+            $("#cart span")[0].innerText = count;
+            alert("Item added to cart.");
+        });
+    </script>
 </body>
 
 </html>
